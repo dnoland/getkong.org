@@ -170,7 +170,7 @@ access. Here is an example, which assumes you have already configured an API nam
     }
     ```
     
-    It shows the request was succesful, but anonymous.
+    It shows the request was successful, but anonymous.
 
 ## Multiple Authentication
 
@@ -193,7 +193,7 @@ multiple authentication credentials. The key to the behaviour is the `config.ano
 undefined if they are mixed.
 
 **NOTE 2**: When using the `AND` method, the last plugin executed will be the one setting the credentials
-passed to the upstream service. With the `OR` method, it will be the first plugin that succesfully authenticates
+passed to the upstream service. With the `OR` method, it will be the first plugin that successfully authenticates
 the consumer, or the last plugin that will set its configured anonymous consumer.
 
 **NOTE 3**: When using the OAuth2 plugin in an `AND` fashion, then also the OAuth2 endpoints for requesting
